@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "es6",                          
+      "module": "commonjs",                     
+      "strict": true,                           
+      "esModuleInterop": true,                  
+      "skipLibCheck": true,                     
+      "forceConsistentCasingInFileNames": true  
+    },
+    "include": ["concert-app/**/*"],
+    "exclude": ["node_modules"]
+  }
