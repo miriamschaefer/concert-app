@@ -1,12 +1,16 @@
 {
-    "compilerOptions": {
-      "target": "es6",                          
-      "module": "commonjs",                     
-      "strict": true,                           
-      "esModuleInterop": true,                  
-      "skipLibCheck": true,                     
-      "forceConsistentCasingInFileNames": true  
-    },
-    "include": ["concert-app/**/*"],
-    "exclude": ["node_modules"]
-  }
+  "compilerOptions": {
+    "target": "ES2022",
+    "noImplicitAny": true,
+    "module": "ES2022",
+    "moduleResolution": "node",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", ".env"]
+}
